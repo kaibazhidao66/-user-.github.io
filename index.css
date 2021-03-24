@@ -1,0 +1,66 @@
+			body{
+				background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+			}
+			img
+			{
+				border: #e10b2b 3pt dashed;
+			}
+			a
+			{
+				text-decoration: none;
+				color: #c92a2a;
+				font-size: 33pt;
+				font-family: 方正彩云简体;
+			}
+			h3
+			{
+			font-family: 方正硬笔行书简体;
+			font-size: 50pt;
+			color: #f06292;
+			background: linear-gradient(to bottom, #00F5A0, #00D9F5);
+			}
+			ol
+			{
+				color: #64dd17;
+				font-size: 25pt;	
+			}
+			#jin
+			{
+				color: #18ffff;
+				background-color: #000000;
+				width: 120px;
+				height: 50px;
+				font-size: 25px;
+				border: #ffff24 3px solid;
+			}
+			table
+			{
+				width: 200pt;
+				border: #bdbdbd 7pt dashed;
+			}
+			#if
+			{
+				border: #ffff00 5pt solid;
+			}
+			b{
+				font-size: 17pt;
+			}
+			h1{
+				font-family: "方正硬笔行书简体";
+				font-size: 33pt;
+			}
+			.wen
+			{
+				font-size: 20px;
+				color: #212121;
+			}
+			.qu
+			{
+				font-family: 华文仿宋;
+				font-size: 33pt;
+				color: #9c27b0;
+			}
+			.luoma
+			{
+				list-style-type: upper-roman;
+			}
