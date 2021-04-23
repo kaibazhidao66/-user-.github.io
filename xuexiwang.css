@@ -1,0 +1,88 @@
+body{
+				background-color: #dbfbe3;
+			}
+			a
+			{
+				text-decoration: none;
+				color: #d9b3ff;
+				font-size: 40pt;
+				font-family: 方正彩云简体;
+			}
+			#jin
+			{
+				color: #18ffff;
+				background-color: #000000;
+				width: 115px;
+				height: 41px;
+				font-size: 25px;
+				border: #00e5ff 3px solid;
+			}
+			td
+			{
+				border: #bfe9ff 2pt solid;
+				width: 100%;
+				border-bottom: 0px;
+			}
+			#fang
+			{
+				border: #ffb3cc 3pt dashed;
+			}
+			.td{
+				
+			}
+			#info
+			{ 
+				width:760px; 
+				margin:0 auto;
+			}
+			/*定义外层样式*/
+			.wrap 
+			{
+				width:220px; 
+				height:330px; 
+				float:left;
+				position:relative; 
+				overflow:hidden; 
+				font-family:arial, sans-serif; 
+			}
+			.wrap img 
+			{
+				border:0;
+				width:220px;
+				height:330px; 
+			}
+			.wrap p 
+			{
+				display:block; 
+				width:220px; 
+				height:330px; 
+				position:absolute; 
+				left:0; 
+				top:300px; 
+				/*使用RGBA颜色值*/
+				background-color:rgba(0,0,0,0.3);
+				font-size:12px; 
+				color:#FFFFFF; 
+				padding:0; 
+				margin:0; 
+				line-height:16px;
+				/*定义过渡效果，all表示针对所有值有变化的CSS属性*/
+				transition: all 0.6s ease-in-out;
+			}
+			.wrap p b 
+			{
+				display:block; 
+				font-size:22px; 
+				color:#fc0; 
+				text-align:center;
+				margin:0; 
+				padding:0; 
+				line-height:30px;
+			 }
+			.wrap p span 
+			{
+				display:block; 
+				padding:10px; 
+				line-height:20px;
+			}
+			.wrap:hover p {top:0;}
