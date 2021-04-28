@@ -1,0 +1,97 @@
+/*请勿完全抄袭源码，请勿声明自己是原创*/
+/*头部版权导航条*/
+.toubu
+{
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffff24;
+    text-align: center;
+    float: center;
+    text-decoration: none;
+    display: block;
+}
+.men
+{
+    width:100%;
+    height: 48px;
+    text-align: center;	
+}
+.men ul
+{
+    width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+}
+.men ul li 
+{
+    float: left;
+    width: 95px;
+    height: 48px;
+    line-height: 48px;
+    color:#bfbed3;
+    font-family: 黑体;
+    font-size: 16px;
+}
+.men ul li
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+.men  ul .split
+{
+    width: 17px;
+}
+.men ul li :hover
+{
+    color: #bf80ff;
+    background-color: #eefd6a;
+}
+/*底部版权导航条*/
+.ban
+{
+    font-size: 20px;
+    font-weight: 900;
+    color: #272923;
+    text-align: center;
+    float: center;
+    text-decoration: none;
+    display: block;
+}
+.menu
+{
+    width:100%;
+    height: 48px;
+    text-align: center;	
+}
+.menu ul
+{
+    width: 1000px;
+    list-style: none;
+    margin: 0 auto;
+}
+.menu ul li 
+{
+    float: left;
+    width: 95px;
+    height: 48px;
+    line-height: 48px;
+    color: #000;
+    font-family: 黑体;
+    font-size: 16px;
+}
+.menu ul li
+{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+.menu  ul .split
+{
+    width: 17px;
+}
+.menu ul li :hover
+{
+    color: #284f95;
+    background-color: #9ec8da;
+}
