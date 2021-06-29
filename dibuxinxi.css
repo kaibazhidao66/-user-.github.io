@@ -45,8 +45,8 @@ img{
 }
 @keyframes turnaround{
     0% {top:0px; left:0px; background: red;}
-    25% {top:0px; left:1250px; background: blue;}
-    50% {top:250px; left:1250px; background: yellow;}
+    25% {top:0px; left:750px; background: blue;}
+    50% {top:250px; left:750px; background: yellow;}
     75% {top:250px; left:0px; background: green;}
     100% {top:0px; left:0px; background: red;}
 }
