@@ -115,7 +115,8 @@ caption{
      background-color: #ccfbea;
  }*/
  body{
-     background-color: #fef8c9;
+     /*background-color: #fef8c9;*/
+	 background-image:/img/背景.png
  }
  a{
 	text-decoration: none;
