@@ -4,7 +4,7 @@
 				alert("我是小西欢迎来到自由网 ^o^ \n这是一款以劳逸结合为中心的小型学习网站")
 			}
 			function ziyou(){
-				alert("*欢迎关注微信公众号以防丢失——里面还有我精心准备的其它学习资料哦~")
+				alert("*欢迎关注微信公众号以防丢失\n里面还有我精心准备的其它学习资料哦~")
 			}
 			function tishi1(){
 				alert("*提示：学习两小时后别忘了多出去走走或刷五分钟小破站让眼睛和大脑适当的休息下哦~")
@@ -12,8 +12,6 @@
 			function tishi2(){
 				alert("*提示：如有不懂的使用方法可以在此处复制点击回到顶部或下方百度图标自行百度蜘蛛")
 			}
-			function rec()
-			{ alert("亲（づ￣3￣）づ╭❤～￥打赏成功!欢迎常来呦~mua")}
 			//隐藏属性
 			function dian(thisa){
 				nextNode = thisa.nextElementSibling;
