@@ -144,11 +144,11 @@ caption{
      text-align: center;
  }
  @keyframes turnaround{
-    0% {top:0px; left:0px; background: #e666ff;}
-    25% {top:0px; left:300px; background: #ff99ff;}
+    0% {top:100px; left:100px; background: #e666ff;}
+    25% {top:100px; left:300px; background: #ff99ff;}
     50% {top:100px; left:300px; background: #9565b1;}
-    75% {top:100px; left:0px; background: #bf80ff;}
-    100% {top:0px; left:0px; background: #732e7e}
+    75% {top:100px; left:100px; background: #bf80ff;}
+    100% {top:100px; left:100px; background: #732e7e}
 }
 @-moz-keyframes turnaround{
     0% {top:0px; left:0px; background: #e666ff;}
@@ -177,8 +177,8 @@ caption{
     height: 222px;
     background: #fef8c9;
     position: relative;
-    animation: turnaround 30s infinite;
-    -moz-animation: turnaround 30s infinite;
-    -webkit-animation: turnaround 30s infinite;
-    -o-animation: turnaround 30s infinite;
+    animation: turnaround 5s infinite;
+    -moz-animation: turnaround 5s infinite;
+    -webkit-animation: turnaround 5s infinite;
+    -o-animation: turnaround 5s infinite;
 }
