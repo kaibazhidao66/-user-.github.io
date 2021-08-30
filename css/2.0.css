@@ -73,8 +73,8 @@
 			    width: 17px;
 			}
 			.menu ul li :hover{
-			    color: #64dd17;
-			    background-color: #fff;
+			    color: #fff;
+			    background-color: #000;
 			}
 			/*返回顶部样式*/
 			.dingbu{
