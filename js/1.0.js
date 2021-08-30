@@ -21,3 +21,11 @@
 					nextNode.style.display='none';
 				}
 			}
+   //百度统计
+   var _hmt = _hmt || [];
+  (function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?df074478403d5af4db116a2847d0e92e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+  })();
