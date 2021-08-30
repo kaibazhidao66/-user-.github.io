@@ -280,50 +280,45 @@
     background-color: #eefd6a;
 }
 
-/*底部导航条*/
+                       /*底部导航条*/
 
-.ban
-{
-    font-size: 20px;
-    font-weight: 900;
-    color: #272923;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-}
-.menu
-{
-    width:100%;
-    height: 200px;
-    text-align: center;	
-}
-.menu ul
-{
-    list-style: none;
-    margin: 0 auto;
-}
-.menu ul li 
-{
-    width: 95px;
-    height: 48px;
-    line-height: 48px;
-    color: #000;
-    font-family: 黑体;
-    font-size: 16px;
-}
-.menu ul li
-{
-    float: left;
-    text-decoration: none;
-    color: #000;
-    display: block;
-}
-.menu  ul .split
-{
-    width: 17px;
-}
-.menu ul li :hover
-{
-    color: #284f95;
-    background-color: #9ec8da;
-}
+                       .ban{
+			    font-size: 20px;
+			    font-weight: 900;
+			    color: darkturquoise;
+			    text-align: center;
+			    float: center;
+			    text-decoration: none;
+			    display: block;
+			}
+			.menu{
+			    width:100%;
+			    height: 48px;
+			    text-align: center;
+			}
+			.menu ul{
+			    width: 1000px;
+			    list-style: none;
+			    margin: 0 auto;
+			}
+			.menu ul li {
+			    float: left;
+			    width: 95px;
+			    height: 48px;
+			    line-height: 48px;
+			    color: #fff;
+			    font-family: 黑体;
+			    font-size: 16px;
+			}
+			.menu ul li{
+			    text-decoration: none;
+			    color: #fff;
+			    display: block;
+			}
+			.menu  ul .split{
+			    width: 17px;
+			}
+			.menu ul li :hover{
+			    color: #284f95;
+                            background-color: #9ec8da;
+			}
