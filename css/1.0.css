@@ -313,13 +313,10 @@
 }
 .menu ul li
 {
+    float: left;
     text-decoration: none;
     color: #000;
     display: block;
-}
-.menu  ul .split
-{
-    width: 17px;
 }
 .menu ul li :hover
 {
