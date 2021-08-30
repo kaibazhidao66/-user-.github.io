@@ -89,6 +89,12 @@
 				color:white;
 				background:linear-gradient(to bottom,#FFC559,#18ffff)
 			}
+                        #youlian
+                        {
+                                color: #000;
+		                text-decoration: none;
+	                        font-family: 黑体，仿宋，微软雅黑；
+		         }
 			/*主题样式end*/
 			/*其他样式*/
 					#copy
