@@ -318,6 +318,10 @@
     color: #000;
     display: block;
 }
+.menu  ul .split
+{
+    width: 17px;
+}
 .menu ul li :hover
 {
     color: #284f95;
