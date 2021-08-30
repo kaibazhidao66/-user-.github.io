@@ -1,7 +1,7 @@
 			//请勿完全抄袭源码，请勿声明自己是原创
 			//window.onbeforeunload=function(){ return '你确定要离开吗？';}
 			function hello(){
-				alert("我是小西欢迎来到自由网 ^o^ \n这是一款以劳逸结合为中心的小型学习网站")
+				alert("我是小西欢迎来到自由导航 ^o^ \n这是一款以劳逸结合为中心的小型学习导航页面")
 			}
 			function ziyou(){
 				alert("*欢迎关注微信公众号以防丢失~\n里面还有我精心准备的其它学习资料哦")
