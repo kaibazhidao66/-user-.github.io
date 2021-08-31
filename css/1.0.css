@@ -318,16 +318,9 @@
 			    color: #fff;
 			    font-family: 黑体;
 			    font-size: 16px;
-			}
-			.menu ul li{
 			    text-decoration: none;
-			    color: #fff;
 			    display: block;
 			}
 			.menu  ul .split{
 			    width: 17px;
-			}
-			.menu ul li :hover{
-			    color: #284f95;
-                            background-color: #9ec8da;
 			}
