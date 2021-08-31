@@ -177,8 +177,8 @@ caption{
     height: 222px;
     background: #fef8c9;
     position: relative;
-    animation: turnaround 5s infinite;
-    -moz-animation: turnaround 5s infinite;
-    -webkit-animation: turnaround 5s infinite;
-    -o-animation: turnaround 5s infinite;
+    animation: turnaround 15s infinite;
+    -moz-animation: turnaround 15s infinite;
+    -webkit-animation: turnaround 15s infinite;
+    -o-animation: turnaround 15s infinite;
 }
