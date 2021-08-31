@@ -92,7 +92,11 @@
                         .dibu
                         {
                                 color:#284f95; 
-				font-size:20px;
+				font-size:15px;
+                        }
+                        .dibu :hover
+                        {
+                                color:#9ec8da; 
                         }
 			/*主题样式end*/
 			/*其他样式*/
