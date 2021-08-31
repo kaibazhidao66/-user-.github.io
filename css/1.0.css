@@ -12,8 +12,8 @@
 			{
 				text-decoration: none;
 				color: #c92a2a;
-				font-size: 33pt;
-				font-family: 方正彩云简体;
+				font-size: 30pt;
+				font-family: 方正彩云简体,仿宋,微软雅黑;
 			}
 			ol
 			{
@@ -91,8 +91,8 @@
 			}
                         .dibu
                         {
-                                color:#000; 
-				font-size:30px;
+                                color:blue; 
+				font-size:20px;
                         }
 			/*主题样式end*/
 			/*其他样式*/
