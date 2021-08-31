@@ -86,9 +86,14 @@
 			}
 			button:hover
 			{
-				color:white;
+				color:fff;
 				background:linear-gradient(to bottom,#FFC559,#18ffff)
 			}
+                        .dibu
+                        {
+                                color:#000; 
+				font-size:30px;
+                        }
 			/*主题样式end*/
 			/*其他样式*/
 					#copy
