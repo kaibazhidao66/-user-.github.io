@@ -35,6 +35,11 @@
 			.juzhong{
 				text-align: center;
 			}
+                        .yin
+			{
+				background-color: #000;
+				border: #fff 1px dashed;
+			}
                         .bufu{
 			            text-align:center;
 			            color:#fff;
