@@ -110,7 +110,7 @@
 				height: 50px;
 				border: 1px solid aqua;
 			}
-			/*脉动标志样式*/
+			/*蝙蝠*/
 			.pulsing-9 {
 			  width:100px;
 			  height:45px;
@@ -134,4 +134,48 @@
 			@keyframes pl9 {
 			  to {transform:perspective(300px) translateZ(100px);opacity:0}
 			}
-			
+                        /*飞镖*/
+			.shuriken-10 {
+                          width: 80px;
+                          height: 80px;
+                          display: grid;
+                          color:#8d7958;
+                          background: radial-gradient(circle 16px,currentColor 94%,#0000);
+                          -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
+                          animation:sh10 1.5s infinite linear;
+                          }
+                         .shuriken-10:before,
+                         .shuriken-10:after {
+                          content: "";
+                          grid-area: 1/1;
+                          background: 
+                          radial-gradient(farthest-side at bottom right,currentColor 94%,#0000) top    right, 
+                          radial-gradient(farthest-side at top    left ,currentColor 94%,#0000) bottom left;
+                          background-size: 40% 45%;
+                          background-repeat: no-repeat;
+                          -webkit-mask: 
+                          radial-gradient(60% 100% at bottom right,#0000 94%,#000) top    right, 
+                          radial-gradient(60% 100% at top    left ,#0000 94%,#000) bottom left;
+                          -webkit-mask-size: 40% 45%;
+                          -webkit-mask-repeat: no-repeat;
+                          }
+                         .shuriken-10:after {
+                         transform: rotate(90deg);
+                         }
+
+                         @keyframes sh10 { 
+                          100%{transform: rotate(1turn)}
+                         }
+
+                         /*
+  body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-auto-rows: 130px;
+  place-items:center;
+}
+
+* {
+  box-sizing: border-box;
+}
+*/
