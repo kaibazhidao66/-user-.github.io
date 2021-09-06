@@ -134,103 +134,123 @@
 			@keyframes pl9 {
 			  to {transform:perspective(300px) translateZ(100px);opacity:0}
 			}
+
                         /*飞镖*/
-                        .feibiao1 {
-                         width: 80px;
-                         height: 80px;
-                         color:#8d7958;
-                         background:
-                         conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
-                         conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
-                         conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
-                         conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
-                         background-size: 100% 50%,50% 100%;
-                         -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-                         background-repeat: no-repeat;
-                         animation:sh1 1.5s infinite linear;
-                         }
+                       
+.shuriken-1 {
+  width: 80px;
+  height: 80px;
+  color:#8d7958;
+  background:
+    conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
+    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
+    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
+    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
+  background-size: 100% 50%,50% 100%;
+  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
+  background-repeat: no-repeat;
+  animation:sh1 1.5s infinite linear;
+}
 
-                         @keyframes sh1{ 
-                         100%{transform: rotate(1turn)}
-                         }
+@keyframes sh1{ 
+  100%{transform: rotate(1turn)}
+}
 
-                         .feibiao2 {
-                          width: 80px;
-                          height: 80px;
-                          color:#8d7958;
-                          background:
-                          conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
-                          conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
-                          conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
-                          conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
-                          background-size: 100% 50%,50% 100%;
-                          -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-                          background-repeat: no-repeat;
-                          animation:sh2 1.5s infinite linear;
-                          }
-                         .feibiao2:before {
-                          content: "";
-                          position: absolute;
-                          inset:0;
-                          background:inherit;
-                          transform: rotate(45deg); 
-                          }
+.shuriken-2 {
+  width: 80px;
+  height: 80px;
+  color:#8d7958;
+  background:
+    conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
+    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
+    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
+    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
+  background-size: 100% 50%,50% 100%;
+  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
+  background-repeat: no-repeat;
+  animation:sh2 1.5s infinite linear;
+}
+.shuriken-2:before {
+  content: "";
+  position: absolute;
+  inset:0;
+  background:inherit;
+  transform: rotate(45deg); 
+}
 
-                          @keyframes sh2{ 
-                           100%{transform: rotate(1turn)}
-                          }
+@keyframes sh2{ 
+  100%{transform: rotate(1turn)}
+}
 
-                          .feibiao3 {
-                           width: 80px;
-                           height: 80px;
-                           display: grid;
-                           color:#8d7958;
-                           -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-                           animation:sh3 1.5s infinite linear;
-                           }
-                          .feibiao3:before,
-                          .feibiao3:after {
-                           content: "";
-                           grid-area: 1/1;
-                           background: 
-                           radial-gradient(farthest-side at bottom left, currentColor 94%,#0000) top left, 
-                           radial-gradient(farthest-side at top right  , currentColor 94%,#0000) bottom right;
-                           background-size: 63% 50%;
-                           background-repeat: no-repeat;
-                           -webkit-mask: 
-                           radial-gradient(65% 110% at bottom left, #0000 94%,#000) top left, 
-                           radial-gradient(65% 110% at top   right, #0000 94%,#000) bottom right;
-                           -webkit-mask-size: 62% 50%;
-                           -webkit-mask-repeat: no-repeat;
-                           }
-                           .feibiao3:after {
-                           transform: rotate(90deg);
-                           }
+.shuriken-3 {
+  width: 80px;
+  height: 80px;
+  display: grid;
+  color:#8d7958;
+  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
+  animation:sh3 1.5s infinite linear;
+}
+.shuriken-3:before,
+.shuriken-3:after {
+  content: "";
+  grid-area: 1/1;
+  background: 
+    radial-gradient(farthest-side at bottom left, currentColor 94%,#0000) top left, 
+    radial-gradient(farthest-side at top right  , currentColor 94%,#0000) bottom right;
+  background-size: 63% 50%;
+  background-repeat: no-repeat;
+  -webkit-mask: 
+    radial-gradient(65% 110% at bottom left, #0000 94%,#000) top left, 
+    radial-gradient(65% 110% at top   right, #0000 94%,#000) bottom right;
+  -webkit-mask-size: 62% 50%;
+  -webkit-mask-repeat: no-repeat;
+}
+.shuriken-3:after {
+  transform: rotate(90deg);
+}
 
-                           @keyframes sh3 { 
-                           100%{transform: rotate(1turn)}
-                           }
+@keyframes sh3 { 
+  100%{transform: rotate(1turn)}
+}
 
-                          .feibiao4 {
-                           width: calc(80px*0.707);
-                           height: calc(80px*0.707);
-                           background:#8d7958;
-                           clip-path: polygon(0 0,50% 15%,100% 0,85% 50%,100% 100%,50% 85%,0 100%,15% 50%);
-                           -webkit-mask:
-                           radial-gradient(circle closest-side,#0000 92%,#000) top   /100% 33.4%,
-                           radial-gradient(circle closest-side,#0000 92%,#000) left  /33.4%  33.4%,
-                           radial-gradient(circle 5px         ,#0000 92%,#000) center/33.3%  33.3%,
-                           radial-gradient(circle closest-side,#0000 92%,#000) right /33.4%  33.4%,
-                           radial-gradient(circle closest-side,#0000 92%,#000) bottom/100% 33.4%;
-                           -webkit-mask-repeat:no-repeat;
-                           animation:sh4 1.5s infinite linear;
-                           }
+.shuriken-4 {
+  width: calc(80px*0.707);
+  height: calc(80px*0.707);
+  background:#8d7958;
+  clip-path: polygon(0 0,50% 15%,100% 0,85% 50%,100% 100%,50% 85%,0 100%,15% 50%);
+  -webkit-mask:
+    radial-gradient(circle closest-side,#0000 92%,#000) top   /100% 33.4%,
+    radial-gradient(circle closest-side,#0000 92%,#000) left  /33.4%  33.4%,
+    radial-gradient(circle 5px         ,#0000 92%,#000) center/33.3%  33.3%,
+    radial-gradient(circle closest-side,#0000 92%,#000) right /33.4%  33.4%,
+    radial-gradient(circle closest-side,#0000 92%,#000) bottom/100% 33.4%;
+  -webkit-mask-repeat:no-repeat;
+  animation:sh4 1.5s infinite linear;
+}
 
-                           @keyframes sh4 { 
-                           100%{transform: rotate(1turn)}
-                           }
+@keyframes sh4 { 
+  100%{transform: rotate(1turn)}
+}
 
-                          .feibiao5 {
+.shuriken-5 {
+  width: 80px;
+  height: 80px;
+  color:#8d7958;
+  background:
+    linear-gradient(currentColor 0 0) center/100% 15px,
+    linear-gradient(currentColor 0 0) center/15px 100%,
+    radial-gradient(circle 15px,currentColor 94%,#0000);
+  background-repeat: no-repeat;
+  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
+  clip-path: polygon(0 30px,calc(100% - 30px) 0,100% calc(100% - 30px),30px 100%);
+  animation:sh5 1.5s infinite linear;
+}
+
+@keyframes sh5 { 
+  100%{transform: rotate(1turn)}
+}
+
+.shuriken-6 {
   width: 80px;
   height: 80px;
   display: grid;
@@ -245,53 +265,20 @@
   -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
   animation:sh6 1.5s infinite linear;
 }
-.feibiao5:before,
-.feibiao5:after {
+.shuriken-6:before,
+.shuriken-6:after {
   content: "";
   grid-area: 1/1;
   background:inherit; 
   transform: rotate(60deg);
 }
-.feibiao5:after {
+.shuriken-6:after {
   transform: rotate(120deg);
 }
 
 @keyframes sh6 { 
   100%{transform: rotate(1turn)}
 }
-
-			.feibiao6 {
-                          width: 80px;
-                          height: 80px;
-                          display: grid;
-                          color:#8d7958;
-                          background: radial-gradient(circle 16px,currentColor 94%,#0000);
-                          -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-                          animation:sh10 1.5s infinite linear;
-                          }
-                         .feibiao6:before,
-                         .feibiao6:after {
-                          content: "";
-                          grid-area: 1/1;
-                          background: 
-                          radial-gradient(farthest-side at bottom right,currentColor 94%,#0000) top    right, 
-                          radial-gradient(farthest-side at top    left ,currentColor 94%,#0000) bottom left;
-                          background-size: 40% 45%;
-                          background-repeat: no-repeat;
-                          -webkit-mask: 
-                          radial-gradient(60% 100% at bottom right,#0000 94%,#000) top    right, 
-                          radial-gradient(60% 100% at top    left ,#0000 94%,#000) bottom left;
-                          -webkit-mask-size: 40% 45%;
-                          -webkit-mask-repeat: no-repeat;
-                          }
-                         .feibiao6:after {
-                         transform: rotate(90deg);
-                         }
-
-                         @keyframes sh10 { 
-                          100%{transform: rotate(1turn)}
-                         }
-
                          /*
   body {
   display: grid;
