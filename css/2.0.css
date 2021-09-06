@@ -42,18 +42,17 @@
 			}
                         .bufu{
 			            text-align:center;
-			            color:aqua;
+			            color:#fff;
 				    font-size: 180px;
 			            text-shadow: 1px 1px 1px #ccc,
 			                       0 0 10px #fff,
 			                       0 0 20px #fff,
 			                       0 0 30px #fff,
-					    
-			                       0 0 40px #fff,
-			                       0 0 70px #fff,
-			                       0 0 80px #fff,
-			                       0 0 100px #fff,
-			                       0 0 150px #fff;
+			                       0 0 40px aqua,
+			                       0 0 70px aqua,
+			                       0 0 80px aqua,
+			                       0 0 100px aqua,
+			                       0 0 150px aqua;
 			            transform-style: preserve-3d;
 			            -moz-transform-style: preserve-3d;
 			            -webkit-transform-style: preserve-3d;   
