@@ -140,6 +140,7 @@
 .wobbling-1 {
   height:60px;
   width:60px;
+  text-align: center;
   position: relative;
 }
 .wobbling-1::before,
@@ -176,27 +177,8 @@
 }
 
  /*飞镖*/
-                       
+
 .shuriken-1 {
-  width: 80px;
-  height: 80px;
-  color:#8d7958;
-  background:
-    conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
-    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
-    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
-    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
-  background-size: 100% 50%,50% 100%;
-  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-  background-repeat: no-repeat;
-  animation:sh1 1.5s infinite linear;
-}
-
-@keyframes sh1{ 
-  100%{transform: rotate(1turn)}
-}
-
-.shuriken-2 {
   width: 80px;
   height: 80px;
   display: grid;
@@ -205,8 +187,8 @@
   -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
   animation:sh2 1.5s infinite linear;
 }
-.shuriken-2:before,
-.shuriken-2:after {
+.shuriken-1:before,
+.shuriken-1:after {
   content: "";
   grid-area: 1/1;
   background: 
@@ -224,7 +206,26 @@
   transform: rotate(90deg);
 }
 
-@keyframes sh2 { 
+@keyframes sh1 { 
+  100%{transform: rotate(1turn)}
+}
+
+.shuriken-2 {
+  width: 80px;
+  height: 80px;
+  color:#8d7958;
+  background:
+    conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
+    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
+    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
+    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
+  background-size: 100% 50%,50% 100%;
+  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
+  background-repeat: no-repeat;
+  animation:sh2 1.5s infinite linear;
+}
+
+@keyframes sh2{ 
   100%{transform: rotate(1turn)}
 }
 
@@ -324,4 +325,14 @@
 
 @keyframes sh6 { 
   100%{transform: rotate(1turn)}
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-auto-rows: 130px;
+  place-items:center;
+}
+
+* {
+  box-sizing: border-box;
 }
