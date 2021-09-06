@@ -127,12 +127,10 @@
   box-shadow: 0 0 0 50px;
   clip-path: polygon(-50px -20px,10% -12px,20% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,80% 0,90% -12px,calc(100% + 50px) -20px,100% 80%,calc(100% + 10px) calc(100% + 10px),60% 100%,50% calc(100% + 15px),40% 100%,-10px calc(100% + 10px),0 80%);
 }
-
 .pulsing-9:after {
   animation:pl9 1s infinite;
   transform:perspective(300px) translateZ(0px)
 }
-
 @keyframes pl9 {
   to {transform:perspective(300px) translateZ(100px);opacity:0}
 }
@@ -164,13 +162,11 @@
   background-repeat: no-repeat;
   animation: w10 1s infinite cubic-bezier(0.5,120,0.5,-120);
 }
-
 .wobbling-1::before {
   background:#ddd;
   filter: blur(8px);
   transform: scaleY(0.4) translate(-13px, 0px);
 }
-
 @keyframes w10 { 
  30%,70% {transform:rotate(0deg)}
  49.99%  {transform:rotate(0.2deg)}
@@ -206,11 +202,9 @@
 .shuriken-1:after {
   transform: rotate(90deg);
 }
-
 @keyframes sh1 { 
   100%{transform: rotate(1turn)}
 }
-
 .shuriken-2 {
   width: 80px;
   height: 80px;
@@ -225,11 +219,9 @@
   background-repeat: no-repeat;
   animation:sh2 1.5s infinite linear;
 }
-
 @keyframes sh2{ 
   100%{transform: rotate(1turn)}
 }
-
 .shuriken-3 {
   width: 80px;
   height: 80px;
@@ -256,11 +248,9 @@
 .shuriken-3:after {
   transform: rotate(90deg);
 }
-
 @keyframes sh3 { 
   100%{transform: rotate(1turn)}
 }
-
 .shuriken-4 {
   width: calc(80px*0.707);
   height: calc(80px*0.707);
@@ -275,11 +265,9 @@
   -webkit-mask-repeat:no-repeat;
   animation:sh4 1.5s infinite linear;
 }
-
 @keyframes sh4 { 
   100%{transform: rotate(1turn)}
 }
-
 .shuriken-5 {
   width: 80px;
   height: 80px;
@@ -293,11 +281,9 @@
   clip-path: polygon(0 30px,calc(100% - 30px) 0,100% calc(100% - 30px),30px 100%);
   animation:sh5 1.5s infinite linear;
 }
-
 @keyframes sh5 { 
   100%{transform: rotate(1turn)}
 }
-
 .shuriken-6 {
   width: 80px;
   height: 80px;
@@ -306,7 +292,6 @@
   background:
     conic-gradient(from -153deg at right,#0000,currentColor 1deg 126deg,#0000 127deg) calc(50% + 5px) 0   /10px 50%,
     conic-gradient(from   27deg at left ,#0000,currentColor 1deg 126deg,#0000 127deg) calc(50% - 5px) 100%/10px 50%,
-
     linear-gradient(to top    right,currentColor 50%,#0000 0%) calc(50% + 10px) calc(50% - 10px) /20px 20px,
     linear-gradient(to bottom left ,currentColor 50%,#0000 0%) calc(50% - 10px) calc(50% + 10px) /20px 20px;
   background-repeat: no-repeat;
@@ -323,7 +308,6 @@
 .shuriken-6:after {
   transform: rotate(120deg);
 }
-
 @keyframes sh6 { 
   100%{transform: rotate(1turn)}
 }
