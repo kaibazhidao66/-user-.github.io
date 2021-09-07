@@ -211,22 +211,6 @@
 .shuriken-5 {
   width: 80px;
   height: 80px;
-  color:#64dd17;
-  background:
-    linear-gradient(currentColor 0 0) center/100% 15px,
-    linear-gradient(currentColor 0 0) center/15px 100%,
-    radial-gradient(circle 15px,currentColor 94%,#0000);
-  background-repeat: no-repeat;
-  -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-  clip-path: polygon(0 30px,calc(100% - 30px) 0,100% calc(100% - 30px),30px 100%);
-  animation:sh5 1.5s infinite linear;
-}
-@keyframes sh5 { 
-  100%{transform: rotate(1turn)}
-}
-.shuriken-6 {
-  width: 80px;
-  height: 80px;
   display: grid;
   color:#64dd17;
   background:
@@ -236,18 +220,18 @@
     linear-gradient(to bottom left ,currentColor 50%,#0000 0%) calc(50% - 10px) calc(50% + 10px) /20px 20px;
   background-repeat: no-repeat;
   -webkit-mask:radial-gradient(circle 5px,#0000 90%,#000);
-  animation:sh6 1.5s infinite linear;
+  animation:sh5 1.5s infinite linear;
 }
-.shuriken-6:before,
-.shuriken-6:after {
+.shuriken-5:before,
+.shuriken-5:after {
   content: "";
   grid-area: 1/1;
   background:inherit; 
   transform: rotate(60deg);
 }
-.shuriken-6:after {
+.shuriken-5:after {
   transform: rotate(120deg);
 }
-@keyframes sh6 { 
+@keyframes sh5 { 
   100%{transform: rotate(1turn)}
 }
