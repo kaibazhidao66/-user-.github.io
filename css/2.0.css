@@ -4,6 +4,7 @@
 				scroll-behavior: smooth;
 			}
 			body{
+				width: 100%;
 				background: linear-gradient(to bottom, #68645b, #000000);
 			}
 			h2{
