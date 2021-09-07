@@ -259,7 +259,7 @@
 }
 .men ul
 {
-    width: 1050px;
+    width: 1000px;
     list-style: none;
     margin: 0 auto;
 }
@@ -289,7 +289,7 @@
     background-color: #eefd6a;
 }
 
-                       /*底部导航条*/
+                       /*底部导航条
 
                        .ban{
 			    font-size: 20px;
@@ -323,4 +323,4 @@
 			}
 			.menu  ul .split{
 			    width: 17px;
-			}
+			}*/
