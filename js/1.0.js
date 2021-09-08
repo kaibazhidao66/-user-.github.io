@@ -12,7 +12,7 @@
 			function tishi2(){
 				alert("*提示：如有不懂的使用方法可以在此处复制点击回到顶部或下方百度图标自行百度蜘蛛")
 			}
-			//隐藏属性
+			//隐藏
 			function dian(thisa){
 				nextNode = thisa.nextElementSibling;
 				if(nextNode.style.display=='none'){
@@ -21,11 +21,11 @@
 					nextNode.style.display='none';
 				}
 			}
-   //百度统计
-   var _hmt = _hmt || [];
-  (function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?df074478403d5af4db116a2847d0e92e";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-  })();
+                        //统计
+                        var _hmt = _hmt || [];
+                        (function() {
+                        var hm = document.createElement("script");
+                        hm.src = "https://hm.baidu.com/hm.js?df074478403d5af4db116a2847d0e92e";
+                        var s = document.getElementsByTagName("script")[0]; 
+                        s.parentNode.insertBefore(hm, s);
+                        })();
