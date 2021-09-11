@@ -1,0 +1,86 @@
+/*框架*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.mainZone {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.mainZone div {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+a {
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 87px);
+    margin-left: -50%;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Helvetica", Consolas, Helvetica Neue;
+    font-weight: bold;
+    font-size: 150px;
+}
+@media (min-device-width : 375px) and (max-device-width : 667px){
+    a {
+        font-size: 38px;
+    }
+}
+.left{
+
+    background-color: paleturquoise;
+}
+.right {
+    left: 50%;
+    background-color: pink;
+}
+/*计时*/
+ body {
+            -webkit-font-smoothing: antialiased;
+            font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+            background-color: paleturquoise;
+            font-size: 85%;
+            margin: 0;
+        }
+        
+        h1 {
+            font-size: 220%;
+            font-weight: 400;
+			color: #000;
+        }
+        
+        .content {
+            position: absolute;
+            width: 100%;
+            top: 40%;
+            transform: translate(0, -50%);
+            text-align: center;
+        }
+        /*meet*/
+        .time {
+            font-size: 180%;
+            line-height: 1.5;
+            margin: 1em 0;
+        }
+        
+        .time b {
+            color: pink;
+        }
+		/*love*/
+		.timer {
+		    font-size: 180%;
+		    line-height: 1.5;
+		    margin: 1em 0;
+		}
+		
+		.timer b {
+			color: paleturquoise;
+		}
