@@ -326,10 +326,10 @@
 			}
 
                 /*回到顶部按钮*/
-		#doitbegin_Back2top {
+		.doitbegin_Back2top {
 		    display:block;
 		    width:38px;
-		    height:38px;
+		    height:58px;
 		    background:url(/img/to-top.png) no-repeat;
 		    position: fixed;
 		    _position:absolute;
@@ -339,6 +339,6 @@
 		    cursor: pointer;
 		    text-indent: -999em;
 		}
-		#doitbegin_Back2top:hover {
+		.doitbegin_Back2top:hover {
 		    background:url(/img/to-top-hover.png) no-repeat;
 		}
