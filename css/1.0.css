@@ -330,7 +330,7 @@
 		    display:block;
 		    width:38px;
 		    height:38px;
-		    background:url(./img/to-top.png) no-repeat;
+		    background:url(/img/to-top.png) no-repeat;
 		    position: fixed;
 		    _position:absolute;
 		    right:20px;
@@ -340,5 +340,5 @@
 		    text-indent: -999em;
 		}
 		#doitbegin_Back2top:hover {
-		    background:url(./img/to-top-hover.png) no-repeat;
+		    background:url(/img/to-top-hover.png) no-repeat;
 		}
