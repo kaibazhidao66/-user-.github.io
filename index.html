@@ -25,11 +25,36 @@
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="https://www.bilibili.com" target="_blank">bilibili</a>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="https://juejin.cn" target="_blank">掘金</a>
+		  本站已运行<b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 秒
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="https://github.com" target="_blank">Github</a>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="https://youtube.com" target="_blank">Youtube</a>
       </div>
+      <script>
+        function timer() {
+            var start = new Date(2021, 2, 20); // 2021.3.20
+            var t = new Date() - start;
+            var h = ~~(t / 1000 / 60 / 60 % 24);
+            if (h < 10) {
+                h = "0" + h;
+            }
+            var m = ~~(t / 1000 / 60 % 60);
+            if (m < 10) {
+                m = "0" + m;
+            }
+
+            var s = ~~(t / 1000 % 60);
+            if (s < 10) {
+                s = "0" + s;
+            }
+            document.getElementById('d').innerHTML = ~~(t / 1000 / 60 / 60 / 24);
+            document.getElementById('h').innerHTML = h;
+            document.getElementById('m').innerHTML = m;
+            document.getElementById('s').innerHTML = s;
+        }
+        timer();
+        setInterval(timer, 1000);
+    </script>
 </body>
 </html>
